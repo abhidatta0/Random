@@ -1,0 +1,9 @@
+.box {
+    border: 0.1rem solid green;
+    border-radius: 0.5;
+}
+
+/* Placeholder color */
+input[type="number"]#characterAmount::-webkit-input-placeholder {
+    color:tomato;
+}
