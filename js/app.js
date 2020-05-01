@@ -129,7 +129,7 @@ async function displayQuotes(){
   try{
     quotesBtn.innerHTML=`<span class="spinner-border spinner-border-sm" ></span>Generating...`;
     quotesBtn.disabled = true;
-    let api = "http://api.quotable.io/random";
+    let api = "https://api.quotable.io/random";
     let quoteStream = await fetch(api);
     //For success 200 status
     if(quoteStream.status == 200){
